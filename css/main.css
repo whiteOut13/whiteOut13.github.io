@@ -1,0 +1,67 @@
+h2.title{
+    margin-top: 0;
+    padding-bottom: 30px;
+  
+    font-size: 25px;
+    text-align: center;
+
+    border-bottom: 2px solid #e3e3e3;
+}
+
+h1.title{
+    margin-top: 50px;
+    margin-bottom: 5px;
+  
+    font-size: 60px;
+    text-align: center;
+}
+
+p.email{
+    border-bottom: 2px solid #e3e3e3;
+    padding-bottom: 30px;
+}
+
+.workName{
+    font-weight: bold;
+}
+
+h3.contact{
+    color: #9d9fa1;
+}
+
+body {
+    margin: 0;
+    font-size: 15px;
+    font-family: sans-serif;
+    line-height: 1.5;
+    color: #333;
+    outline: 2px solid #000;
+}
+
+main {
+    
+    width: 900px;
+    margin: auto;
+}
+
+
+.page{
+    margin: 50px;
+}
+
+section h2{
+    color: #9d9fa1;
+    font-size: 25px;
+    padding: 0;
+    text-align: left;
+    border: none;
+  }
+
+
+  ul li {
+    margin-bottom: 10px;
+  }
+
+p.end{
+    padding: 30px;
+}
