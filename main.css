@@ -21,6 +21,10 @@ p.email{
     padding-bottom: 30px;
 }
 
+.contacts{
+    margin-left: 10px;
+}
+
 .workName{
     font-weight: bold;
 }
@@ -35,10 +39,10 @@ body {
     font-family: sans-serif;
     line-height: 1.5;
     color: #333;
-    outline: 2px solid #000;
 }
 
 main {
+    outline: 2px solid #000;
     
     width: 900px;
     margin: auto;
