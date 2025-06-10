@@ -1,59 +1,192 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="main.css">
-    <title>About me</title>
+    <title>Document</title>
+    <!-- <link rel="stylesheet" href="css/normalize.css"> -->
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/media.css">
 </head>
+
 <body>
-<main>
+    <main>
+        <section id="top" class="top-section">
+            <div class="container top-container">
+                <div class="top photo">
+                    <img class="my-photo" src="image/477739180_457244764.png" alt="477739180_457244764.png">
+                </div>
+                <div class="top">
+                    <h1 class="full-name">
+                        Привет! Меня зовут Илья
+                    </h1>
+                    <p class="descr">
+                        Специализации: Программист, разработчик
+                    </p>
+                    <p class="descr">
+                        Занятость: полная занятость, частичная занятость, стажировка
+                    </p>
+                    <p class="descr">
+                        График работы: полный день, сменный график, гибкий график, удаленная работа
+                    </p>
+                    <p class="descr">
+                        Рассматриваю предложения
+                    </p>
+                    <address class="contacts-address">
+                        <ul class="descr-list">
+                            <h3 class="list-title">
+                                Контакты:
+                            </h3>
+                            <li>
+                                Telegram
+                                <a href="#" class="contacts-item-link" target="_blank">
+                                    @white_outlet
+                                </a>
+                            </li>
+                            <li>
+                                Электронная почта
+                                <a href="mailto:outlet.white@yandex.ru" class="contacts-item-link">
+                                    outlet.white@yandex.ru
+                                </a>
+                            </li>
+                        </ul>
+                    </address>
+                </div>
+            </div>
+        </section>
 
-    <h1 class="title">Marco White</h1>
-    <h2 class="title">Jr. Java Development</h2>
-
-
-    <section class="contacts">
-        <p>Мужчина,25 лет, родился 13.03.1997</p>
-        <h3 class="contact">Контанкты:</h3>
-        <p class="email">e-mail <a href="#">out.white13@gmail.com</a></p>
+        <section id="middle" class="middle-sec">
+        <div class="container container-experiance">
+            <h3 class="experience-title">
+                Опыт работы:
+            </h3>
+            <div class="experience">
+                <ul class="experience-list">
+                    <li class="experience-item">
+                        Эксперт по банковским продуктам и сервису
+                        <p class="experience-item-name-company">
+                            Raiffeisenbank
+                        </p>
+                        <p class="experience-item-term">
+                            Март 2022 — Май 2024 (2 года 3 месяца)
+                        </p>
+                    </li>
+                    <li class="experience-item">
+                        Старший специалист по работе с клиентами
+                        <p class="experience-item-name-company">
+                            Сбер
+                        </p>
+                        <p class="experience-item-term">
+                            Март 2018 — Ноябрь 2020 (2 года 9 месяцев)
+                        </p>
+                    </li>
+                </ul>
+            </div>
+        </div>
     </section>
 
-
-    <section class="work page">
-        <h2>Опыт работы</h2>
-        <p class="workName">Raiffeisenbank</p>
-        <p>www.raiffeisen.ru</p>
-        <p>Финансовый сектор <br>
-
-            &nbsp &nbsp &nbsp-Банк<br>
-        
-        Младший специалист<br>
-        Консультирование клиентов банка в чате.</p>
+    <section class="bot-skills">
+        <div class="container container-skills">
+            <h3 class="title-cards">
+                Навыки:
+            </h3>
+            <div class="grid">
+                <div class="card">
+                    <img src="image/dvoichnii-kod-kartinki-2.jpg" alt="" class="picture">
+                    <h4 class="skills-title">
+                        Java
+                    </h4>
+                    <p class="card-text">
+                        Базовый уровень
+                    </p>
+                </div>
+                <div class="card">
+                    <img src="image/dvoichnii-kod-kartinki-2.jpg" alt="" class="picture">
+                    <h4 class="skills-title">
+                        SQL
+                    </h4>
+                    <p class="card-text">
+                        Базовый уровень
+                    </p>
+                </div>
+                <div class="card">
+                    <img src="image/dvoichnii-kod-kartinki-2.jpg" alt="" class="picture">
+                    <h4 class="skills-title">
+                        Spring Boot
+                    </h4>
+                    <p class="card-text">
+                        Базовый уровень
+                    </p>
+                </div>
+                <div class="card">
+                    <img src="image/dvoichnii-kod-kartinki-2.jpg" alt="" class="picture">
+                    <h4 class="skills-title">
+                        Unit Testing
+                    </h4>
+                    <p class="card-text">
+                        Базовый уровень
+                    </p>
+                </div>
+                <div class="card">
+                    <img src="image/dvoichnii-kod-kartinki-2.jpg" alt="" class="picture">
+                    <h4 class="skills-title">
+                        Linux
+                    </h4>
+                    <p class="card-text">
+                        Базовый уровень
+                    </p>
+                </div>
+            </div>
+        </div>
     </section>
 
-    <section class="page">
-        <h2>Образование</h2>
-        <ul>
-            <li>Строительно-энергетический колледж</li>
-        </ul>
-    </section>
+        <div class="container container-projects">
+            <h3 class="projects-title">
+                Мои проекты:
+            </h3>
+            <div class="projects">
+                <ul class="projects-list">
+                    <li class="projects-item">
+                        Скоро тут будут мои работы и <a href="#" target="_blank">
+                                ссылки
+                            </a>
+                    </li>
+                    <li class="projects-item">
+                        Скоро тут будут мои работы и <a href="#" target="_blank">
+                                ссылки
+                            </a>
+                    </li>
+                    <li class="projects-item">
+                        Скоро тут будут мои работы и <a href="#" target="_blank">
+                                ссылки
+                            </a>
+                    </li>
+                    <li class="projects-item">
+                        Скоро тут будут мои работы и <a href="#" target="_blank">
+                                ссылки
+                            </a>
+                    </li>
+                    <li class="projects-item">
+                        Скоро тут будут мои работы и <a href="#" target="_blank">
+                                ссылки
+                            </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
 
-    <section class="page">
-        <h2>Навыки</h2>
-        <ul>
-            <li>Html</li>
-            <li>Css</li>
-            <li>Работа в OS Linux</li>
-            <li>Основы Java</li>
-        </ul>
-    </section>
-
-    <section class="page">
-        <h2>Обо мне</h2>
-        <p class="end">...</p>
-    </section>
-</main>
+        <div class="back-to-top">
+            <a href="#top">
+                <button class="button">
+                    <svg class="svgIcon" viewBox="0 0 384 512">
+                      <path
+                        d="M214.6 41.4c-12.5-12.5-32.8-12.5-45.3 0l-160 160c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L160 141.2V448c0 17.7 14.3 32 32 32s32-14.3 32-32V141.2L329.4 246.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3l-160-160z"
+                      ></path>
+                    </svg>
+                  </button>     
+            </a>         
+        </div>
+    </main>
 </body>
 </html>

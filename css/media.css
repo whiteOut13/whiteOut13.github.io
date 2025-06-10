@@ -1,0 +1,101 @@
+@media (max-width: 1199px) {
+    .back-to-top {
+        margin-right: 100px;
+    }
+
+    .experience {
+        margin-left: 95px;
+    }
+
+    .experience-title {
+        margin-left: 50px;
+    }
+
+    .title-cards {
+        margin-left: 50px;
+    }
+
+    .projects-title {
+        margin-left: 50px;
+    }
+}
+
+@media (max-width: 992px) {
+    .experience {
+        margin-left: 50px;
+    }
+}
+
+@media (max-width: 798px) {
+
+    .top-container {
+        flex-direction: column-reverse;
+    }
+
+    .top {
+        margin-bottom: 0px;
+    }
+
+    .my-photo {
+        border-radius: 100%;
+        min-width: 222px;
+        height: 222px;
+        margin-bottom: 85px;
+    }
+
+    .experience {
+        margin-left: -38px;
+    }
+
+    .projects-list {
+        line-height: 150%;
+    }
+}
+
+@media (max-width: 576px) {
+    .container-skills {
+        display: block;
+    }
+
+    .container-experiance {
+        display: block;
+    }
+
+    .container-projects {
+        display: block;
+    }
+
+    .top {
+        padding: 5px 10px;
+        margin-bottom: 20px;
+        margin-top: 5px;
+    }
+
+    .top-section {
+        margin-bottom: 30px;
+    }
+    
+    .experience {
+        margin-bottom: 35px;
+    }
+
+    .middle-sec {
+        margin-bottom: 30px;
+    }
+
+    .bot-skills {
+        margin-bottom: 30px;
+    }
+
+    .grid {
+        margin-bottom: 0;
+    }
+
+    .back-to-top {
+        margin-right: 40px;
+    }
+
+    .my-photo {
+        margin-bottom: 30px;
+    }
+}
