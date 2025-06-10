@@ -1,14 +1,14 @@
 @font-face {
-    font-family: 'Alegreya';
-    src: url('../font/Alegreya-Italic.woff') format('woff');
+    font-family: 'Ubuntu';
+    src: url('../font/Ubuntu-Light.woff') format('woff');
     font-weight: 400;
     font-style: italic;
 }
 
 
 body {
-    font-family: 'Alegreya', 'font', sans-serif;
-    font-size: 22px;
+    font-family: 'Ubuntu', 'font', sans-serif;
+    font-size: 20px;
 }
 
 
